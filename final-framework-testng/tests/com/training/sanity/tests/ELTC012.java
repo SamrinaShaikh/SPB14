@@ -6,6 +6,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -60,6 +61,7 @@ public class ELTC012 {
 		screenShot.captureScreenShot("Credentials");
 		lostpswdPOM.clicklostpswd();
 		screenShot.captureScreenShot("Message");
+		Reporter.log("Sending email is not configured");
 }
 		
 		
