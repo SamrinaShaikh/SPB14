@@ -65,7 +65,7 @@ public class ELTC040 {
 	@AfterMethod
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
-		driver.quit();
+		//driver.quit();
 	}
 	
 	@Test
@@ -84,7 +84,7 @@ public class ELTC040 {
 		screenShot.captureScreenShot("ProjectCredentials");
 		addnewprojectPOM.clickSubmitBtn();
 		screenShot.captureScreenShot("NewProjectAdded");
-		screenShot.captureScreenShot("Welcome");
+		//screenShot.captureScreenShot("Welcome");
 		addnewprojectPOM.clickTitle();
 		addnewprojectPOM.createNewTask();
 		addnewtaskPOM.sendTaskTitle("design");
