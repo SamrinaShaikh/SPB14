@@ -25,7 +25,7 @@ public class UserManagementPOM {
 	}
 	
 	
-	@FindBy(xpath="//input[@value='691']")
+	@FindBy(xpath="//input[@value='309']")
 	private WebElement chkbox ;
 	
 
