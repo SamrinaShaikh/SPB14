@@ -128,7 +128,7 @@ public class ELTC071 {
 		createnewtestPOM.clickDone();
 		createnewtestPOM.clickPassPercent("50");
 		createnewtestPOM.clickProceed();
-		screenShot.captureScreenShot("Exercise added");
+		screenShot.captureScreenShot("Exercise added2");
 		onlinequizPOM.clickChoice();
 		onlinequizPOM.sendQues("which course you're learning?");
 		onlinequizPOM.clickContext1();
@@ -142,12 +142,12 @@ public class ELTC071 {
 		onlinequizPOM.clickContext4();
 		onlinequizPOM.sendBody4("c#");
 		onlinequizPOM.clickAddQues();
-		screenShot.captureScreenShot("Item added");
+		screenShot.captureScreenShot("Item added2");
 		previewPOM.clickPreview();
 		previewPOM.clickStartTest();
 		previewPOM.clickAns();
 		previewPOM.clickEndTest();
-		screenShot.captureScreenShot("Test Result");
+		screenShot.captureScreenShot("Test Result2");
 		previewPOM.clickProf();
 		previewPOM.clickLogout();
 		
@@ -194,9 +194,9 @@ public class ELTC071 {
 		studentPOM.clickTest();
 		studentPOM.clickSendEmail();
 		studentPOM.clickCorrectTest();
-		screenShot.captureScreenShot("Mail Sent");
+		screenShot.captureScreenShot("Mail Sent2");
 		studentPOM.clickCourse();
-		screenShot.captureScreenShot("Course");
+		screenShot.captureScreenShot("Course2");
 		
 		
 		
