@@ -6,7 +6,7 @@
       <class name="com.training.regression.tests.LoginExcelTest">
         <methods>
           <include name="tearDown"/>
-          <include name="loginDBTest" invocation-numbers="3 4"/>
+          <include name="loginDBTest" invocation-numbers="1 2 3"/>
           <include name="setUpBeforeClass"/>
           <include name="setUp"/>
         </methods>

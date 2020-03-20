@@ -41,4 +41,18 @@ public class LoginDataProviders {
 		// ensure you will have the title as first line in the file 
 		return new ReadExcel().getExcelData("C:/Users/Naveen/Desktop/Testing.xls", "Sheet1"); 
 	}
+	
+	//@DataProvider(name = "userData")
+	//public Object[][] userData(){
+		//String fileName = "C:/Users/SamrinaShaikh/git/SPB14/final-framework-testng/target/Testing.xls", "Sheet1");
+		//return new ApachePOIExcelRead().getExcelContent(fileName); 
+	//}
+	
+	@DataProvider(name = "userData")
+	public Object[][] userData(){
+		// ensure you will have the title as first line in the file 
+		return new ReadExcel().getExcelData("C:/Users/SamrinaShaikh/git/SPB14/final-framework-testng/target/Testing.xls", "Sheet1"); 
+	}
+	
+	
 }
